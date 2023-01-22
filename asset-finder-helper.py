@@ -94,7 +94,7 @@ for char in tqdm(range(1, 101, 1), colour = "green", position = 1, leave = False
     if char == 100:
         sleep(1)
 tqdm.write("\nQuestion [In Dwight Schrute's Voice]... Would You Like To Delete The \"Assets.txt\" File & Just Keep The \"Final.txt\" File? Blank = Yes\033[0m")
-# Using Click Library, Asking If You, The User, Wants To Delete The Original "Assets.txt" File Or Keep It
+# Using Click Library, Asking If You, The User, Want To Delete The Original "Assets.txt" File Or Keep It
 if (click.confirm("", default=True)):
     os.remove(url + '/recon/assets.txt')
     os.system("echo '\nRemoved Assets.txt!\033[0m'")
