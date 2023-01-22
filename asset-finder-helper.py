@@ -32,7 +32,7 @@ print("""
 """)
 sleep(1)
 
-# This Is The Status Bar - Updates After Iteration Through The List. The Sleeps Aren't Really Necessary, But It Makes It Nicer-Looking
+# This Is The Status Bar - Updates After Iteration Through The Given Range. The Sleeps Aren't Really Necessary, But It Makes It Nicer-Looking
 for char in tqdm(range(1, 101, 1), colour = "green", position = 1, leave = False, mininterval = 0.01, smoothing = 1, desc = "Overall Progress: ", bar_format = "{desc:}{percentage:.0f}%|{bar}{r_bar}"):
     if char == 1:
         tqdm.write("\n\033[1;38;2;250;250;110mStarting The Process For " + url.upper() + "!\033[0m")
@@ -48,6 +48,7 @@ for char in tqdm(range(1, 101, 1), colour = "green", position = 1, leave = False
         sleep(0.01)
     if char == 31:
         tqdm.write("\033[1;38;2;146;220;126m(2) Verifying The \"Recon\" Folder Exists\033[0m")
+        # Creating A Directory That Is Labelled "Recon" Inside The URL Folder
         if not os.path.exists(url + "/recon"):
             os.mkdir(url + "/recon")
         tqdm.write("\033[1;38;2;146;220;126mFinished Verification, Moving On\033[0m")
@@ -55,18 +56,21 @@ for char in tqdm(range(1, 101, 1), colour = "green", position = 1, leave = False
         sleep(0.01)
     if char == 46:
         tqdm.write("\033[1;38;2;100;201;135m(3) Creating A File Named \"Assets.txt\"\033[0m")
+        # Creating & Opening A File Named "Assets.txt" For Later Use
         open(url + "/recon/assets.txt", "w+")
         tqdm.write("\033[1;38;2;100;201;135mFinished Creating File, Moving On\033[0m")
     if char <= 60:
         sleep(0.01)
     if char == 61:
         tqdm.write("\033[1;38;2;57;180;142m(4) Running Assetfinder By TomNomNom For " + url.upper() + " & Placing Results Into \"Assets.txt\"\033[0m")
+        # Running Assetfinder, Created By TomNomNom, Using The URL Supplied & Placing Results Into The "Assets.txt" File
         os.system('assetfinder ' + url + ' >> ' + url + '/recon/assets.txt')
         tqdm.write("\033[1;38;2;57;180;142mFinished Running Assetfinder, Moving On\033[0m")
     if char <= 75:
         sleep(0.01)
     if char == 76:
         tqdm.write("\033[1;38;2;8;159;143m(5) Opening \"Assets.txt\" File For Reading\033[0m")
+        # Reading "Assets.txt" File To Transfer Non-Duplicates & Results That Contain The URL Given
         with open(url + '/recon/assets.txt', 'r') as f:
             lines = f.readlines()
         lines_set = set(lines)
@@ -75,6 +79,7 @@ for char in tqdm(range(1, 101, 1), colour = "green", position = 1, leave = False
         sleep(0.01)
     if char == 91:
         tqdm.write("\033[1;38;2;0;137;138m(6) Transferring Results From \"Assets.txt\" To \"Final.txt\" (i.e. Getting Rid of Duplicates & Any Result Without " + url.upper() + ")\033[0m")
+        # Transferring The Above URL Results To "Final.txt" File
         with open(url + '/recon/final.txt', 'w') as f:
             for new_line in lines_set:
                 f.write(new_line)
@@ -89,6 +94,7 @@ for char in tqdm(range(1, 101, 1), colour = "green", position = 1, leave = False
     if char == 100:
         sleep(1)
 tqdm.write("\nQuestion [In Dwight Schrute's Voice]... Would You Like To Delete The \"Assets.txt\" File & Just Keep The \"Final.txt\" File? Blank = Yes\033[0m")
+# Using Click Library, Asking If You, The User, Wants To Delete The Original "Assets.txt" File Or Keep It
 if (click.confirm("", default=True)):
     os.remove(url + '/recon/assets.txt')
     os.system("echo '\nRemoved Assets.txt!\033[0m'")
