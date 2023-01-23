@@ -42,6 +42,8 @@ NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out o
 3. Script will create or check for URL folder -> create or check for assets folder inside URL folder -> run assetfinder -> create assets.txt with results of assetfinder -> create final.txt with assetfinder results, without duplicates and unnecessary results
 4. Option will be given to either keep or delete assets.txt file
 
+If you would like to see more features or for me to change something up in the script, feel free to reach out in the [SOCIAL MEDIA & MORE](https://github.com/ct-cybersec/asset-finder-helper#social-media--more) section ⬇️.
+
 ### Example:
 <div align="center">
   <a href="https://github.com/ct-cybersec/asset-finder-helper">
