@@ -19,13 +19,15 @@
 <!-- ABOUT THE PROJECT -->
 ## ABOUT ASSET FINDER HELPER
 
-Asset Finder Helper is what the name suggests: it's a way to help automate assetfinder [created by: [@TomNomNom](https://github.com/tomnomnom/assetfinder)], while placing the results in files & removing duplicates & results that do not contain the URL supplied as a system argument.
+First, Assetfinder [created by: [TomNomNom](https://github.com/tomnomnom/assetfinder)], itself, is a handy tool that attempts to find domains and/or subdomains related to a specific given domain.
+
+Asset Finder Helper is what the name suggests: it's a way to help automate assetfinder, while placing the results in files & removing duplicates/results that do not contain the URL that is supplied.
 
 Background: This python script is a transformation of the bash script created by Heath Adams in his PNPT course, more specifically the Web Application section, with a few added features and tools, such as:
 1. Creating a URL folder that contains the results files
 2. Adding a progress bar to the script
 3. Adding an option to either delete the original assetfinder results file that contains duplicates and unnecessary results
-4. And, of course, the kewl graphics & color scheme 😋
+4. Adding, of course, the kewl graphics & color scheme 😋
 
 NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out of sheer boredom.
 
@@ -34,8 +36,11 @@ NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out o
 <!-- USAGE EXAMPLES -->
 ## USAGE
 1. Install Python 3
-2. Run `python pass-gen.py <any integer i.e. 10>`
-3. Output of password string will be displayed
+2. Install Assetfinder via [TomNomNom's](https://github.com/tomnomnom/assetfinder) page. Follow the guide on that page for downloading & installing
+3. Clone Asset Finder Helper repo: `git clone https://github.com/ct-cybersec/asset-finder-helper` OR copy the raw output of [asset-finder-helper.py](https://raw.githubusercontent.com/ct-cybersec/asset-finder-helper/main/asset-finder-helper.py) to a python file
+2. Run the script as such: `python asset-finder-helper.py <URL i.e. ct-cybersec.me>`
+3. Script will create or check for URL folder -> create or check for assets folder inside URL folder -> run assetfinder -> create assets.txt with results of assetfinder -> create final.txt with assetfinder results, without duplicates and unnecessary results
+4. Option will be given to either keep or delete assets.txt file
 
 <div align="center">
   <a href="https://github.com/ct-cybersec/asset-finder-helper">
