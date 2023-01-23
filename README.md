@@ -21,9 +21,9 @@
 
 First, Assetfinder [created by: [TomNomNom](https://github.com/tomnomnom/assetfinder)], itself, is a handy tool that attempts to find domains and/or subdomains related to a specific given domain.
 
-Asset Finder Helper is what the name suggests: it's a way to help automate assetfinder, while placing the results in files & removing duplicates/results that do not contain the URL that is supplied.
+Asset Finder Helper is what the name suggests... it's a way to help automate assetfinder, while placing the results in files & removing duplicates/results that do not contain the URL that is supplied.
 
-Background: This python script is a transformation of the bash script created by Heath Adams in his PNPT course, more specifically the Web Application section, with a few added features and tools, such as:
+Background: this python script is a transformation of the bash script created by Heath Adams in his PNPT course, more specifically the Web Application section, with a few added features and tools, such as:
 1. Creating a URL folder that contains the results files
 2. Adding a progress bar to the script
 3. Adding an option to either delete the original assetfinder results file that contains duplicates and unnecessary results
