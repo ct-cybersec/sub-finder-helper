@@ -36,7 +36,7 @@ NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out o
 
 <div align="center">
   <a href="https://github.com/ct-cybersec/asset-finder-helper">
-    <img src="images/asset-finder-help-gif.gif" alt="Gif" width="488" height="394">
+    <img src="images/asset-finder-help-gif.gif" alt="Gif">
   </a>
 </div>
 </br>
