@@ -65,8 +65,9 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 <!-- PENTESTING PORTFOLIO SITE -->
 ## SOCIAL MEDIA & MORE
 
-Corey Thompson - [@ct_cybersec](https://twitter.com/ct_cybersec)<br />
-Pentesting Portfolio Site - [ct-cybersec.me](https://ct-cybersec.me)<br /><br />
+Corey Thompson - [@ct_cybersec](https://twitter.com/ct_cybersec) (twitter)<br />
+Pentesting Portfolio Site - [ct-cybersec.me](https://ct-cybersec.me)<br />
+Email - [ct_cybersec@protonmail.com](mailto:ct_cybersec@protonmail.com)<br /><br />
 <a href="https://www.buymeacoffee.com/ctcybersec" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
