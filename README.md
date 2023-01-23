@@ -13,16 +13,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/ct-cybersec/asset-finder-helper">
-    <img src="images/pass-gen-logo.png" alt="Logo" width="488" height="394">
+    <img src="images/asset-finder-help.png" alt="Logo" width="500" height="500">
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## ABOUT THE PASSWORD GENERATOR
+## ABOUT ASSET FINDER HELPER
 
-It's as simple as that... a very silly, simple password generator where the user inputs an integer as a system argument & the program outputs a string of:
-1. Letters
-2. Numbers
-3. Special Characters
+Asset Finder Helper is what the name suggests: it's a way to help automate assetfinder [created by: [@TomNomNom](https://github.com/tomnomnom/assetfinder)], while placing the results in files & removing duplicates & results that do not contain the URL supplied as a system argument.
+
+Background: This python script is a transformation of the bash script created by Heath Adams in his PNPT course, more specifically the Web Application section, with a few added features and tools, such as:
+1. Creating a URL folder that contains the results files
+2. Adding a progress bar to the script
+3. Adding an option to either delete the original assetfinder results file that contains duplicates and unnecessary results
+4. And, of course, the kewl graphics & color scheme 😋
 
 NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out of sheer boredom.
 
