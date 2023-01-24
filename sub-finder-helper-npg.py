@@ -1,10 +1,9 @@
-# PYTHON SCRIPT THAT DOESN'T CONTAIN THE GAUDY PROGRESS BAR!!!!
 #!/usr/bin/env python3
+# PYTHON SCRIPT THAT DOESN'T CONTAIN THE GAUDY PROGRESS BAR!!!!
 
 import os
 import sys
 import click
-from tqdm import tqdm
 from time import sleep
 
 # Exception Handling for First Argument, Which Needs To Be A URL
