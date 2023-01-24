@@ -1,5 +1,5 @@
-#! SCRIPT WITH PROGRESS BAR!!!
 #!/usr/bin/env python3
+# SCRIPT WITH PROGRESS BAR!!!
 
 import os
 import sys
