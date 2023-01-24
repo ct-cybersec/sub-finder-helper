@@ -48,7 +48,7 @@ If you would like to see more features or for me to change something up in the s
 ### Example:
 <div align="center">
   <a href="https://github.com/ct-cybersec/sub-finder-helper">
-    <img src="images/asset-finder-help-gif2.gif" alt="Gif">
+    <img src="images/sub-finder-helper-gif.gif" alt="Gif">
   </a>
 </div>
 </br>
