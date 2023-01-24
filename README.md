@@ -12,22 +12,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ct-cybersec/asset-finder-helper">
-    <img src="images/asset-finder-help.png" alt="Logo" width=65%>
+  <a href="https://github.com/ct-cybersec/sub-finder-helper">
+    <img src="images/sub-finder-helper.png" alt="Logo" width=65%>
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## ABOUT ASSET FINDER HELPER
+## ABOUT SUB FINDER HELPER
 
-First, Assetfinder [created by: [TomNomNom](https://github.com/tomnomnom/assetfinder)], itself, is a handy tool that attempts to find domains and/or subdomains related to a specific given domain.
+First, there are many great subdomain discovery tools out there: [Assetfinder](https://github.com/tomnomnom/assetfinder) (by TomNomNom), [Amass](https://github.com/OWASP/Amass) (by OWASP), and many many more.
 
-Asset Finder Helper is what the name suggests... it's a way to help automate assetfinder, while placing the results in files & removing duplicates/results that do not contain the URL that is supplied.
+Sub Finder Helper is what the name suggests... it's a way to help automate all these amazing tools, all the way from running the tools, creating and managing folder/files, and checking for alive subdomains.
 
 Background: this python script is a transformation of the bash script created by Heath Adams in his PNPT course, more specifically the Web Application section, with a few added features and tools, such as:
-1. Creating a URL folder that contains the results files
-2. Adding a progress bar to the script
-3. Adding an option to either delete the original assetfinder results file that contains duplicates and unnecessary results
-4. Adding, of course, the kewl graphics & color scheme 😋
+1. Adding an option to either delete the original assetfinder results file that contains duplicates and unnecessary results
+2. Adding, of course, the kewl graphics & color scheme 😋
+3. And more!
 
 NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out of sheer boredom.
 
@@ -37,16 +36,18 @@ NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out o
 ## USAGE
 1. Install Python 3
 2. Install Assetfinder via [TomNomNom's](https://github.com/tomnomnom/assetfinder) page. Follow the guide on that page for downloading & installing
-3. Clone Asset Finder Helper repo: `git clone https://github.com/ct-cybersec/asset-finder-helper` OR copy the raw output of [asset-finder-helper.py](https://raw.githubusercontent.com/ct-cybersec/asset-finder-helper/main/asset-finder-helper.py) to a python file
-2. Run the script as such: `python asset-finder-helper.py <URL i.e. ct-cybersec.me>`
-3. Script will create or check for URL folder -> create or check for assets folder inside URL folder -> run assetfinder -> create assets.txt with results of assetfinder -> create final.txt with assetfinder results, without duplicates and unnecessary results
-4. Option will be given to either keep or delete assets.txt file
+3. Install Amass via [Amass's](https://github.com/OWASP/Amass) page. Follow the guide on that page for downloading & installing
+5. Install HTTProbe via [TomNomNom's](https://github.com/tomnomnom/httprobe) page (yes, another great tool by him). Follow the guide on that page for downloading & installing
+6. Clone Sub Finder Helper repo: `git clone https://github.com/ct-cybersec/sub-finder-helper` OR copy the raw output of [sub-finder-helper.py](https://raw.githubusercontent.com/ct-cybersec/sub-finder-helper/main/sub-finder-helper.py) to a python file
+7. Run the script as such: `python sub-finder-helper.py <URL i.e. ct-cybersec.me>`
+8. Watch the ✨ magic ✨ happen!
+9. Option will be given to either keep or delete the original, unused files
 
-If you would like to see more features or for me to change something up in the script, feel free to reach out in the [SOCIAL MEDIA & MORE](https://github.com/ct-cybersec/asset-finder-helper#social-media--more) section ⬇️.
+If you would like to see more features or for me to change something up in the script, feel free to reach out in the [SOCIAL MEDIA & MORE](https://github.com/ct-cybersec/sub-finder-helper#social-media--more) section ⬇️.
 
 ### Example:
 <div align="center">
-  <a href="https://github.com/ct-cybersec/asset-finder-helper">
+  <a href="https://github.com/ct-cybersec/sub-finder-helper">
     <img src="images/asset-finder-help-gif2.gif" alt="Gif">
   </a>
 </div>
