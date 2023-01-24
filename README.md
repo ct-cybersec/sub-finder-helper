@@ -36,7 +36,7 @@ NOTE: Only tested on Kali Linux, because I am lazy & honestly created this out o
 ## USAGE
 1. Install Python 3
 2. Install Assetfinder via [TomNomNom's](https://github.com/tomnomnom/assetfinder) page. Follow the guide on that page for downloading & installing
-3. Install Amass via [Amass's](https://github.com/OWASP/Amass) page. Follow the guide on that page for downloading & installing
+3. Install Amass via [OWASP's](https://github.com/OWASP/Amass) page. Follow the guide on that page for downloading & installing
 5. Install HTTProbe via [TomNomNom's](https://github.com/tomnomnom/httprobe) page (yes, another great tool by him). Follow the guide on that page for downloading & installing
 6. Clone Sub Finder Helper repo: `git clone https://github.com/ct-cybersec/sub-finder-helper` OR copy the raw output of [sub-finder-helper.py](https://raw.githubusercontent.com/ct-cybersec/sub-finder-helper/main/sub-finder-helper.py) to a python file
 7. Run the script as such: `python sub-finder-helper.py <URL i.e. ct-cybersec.me>`
