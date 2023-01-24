@@ -1,3 +1,4 @@
+#! PYTHON SCRIPT THAT DOESN'T CONTAIN THE GAUDY PROGRESS BAR!!!!
 #!/usr/bin/env python3
 
 import os
