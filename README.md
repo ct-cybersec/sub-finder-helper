@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ct-cybersec/asset-finder-helper">
-    <img src="images/asset-finder-help.png" alt="Logo" width=75%>
+    <img src="images/asset-finder-help.png" alt="Logo" width=65%>
 </div>
 
 <!-- ABOUT THE PROJECT -->
