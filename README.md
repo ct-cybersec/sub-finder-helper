@@ -55,6 +55,22 @@ If you would like to see more features or for me to change something up in the s
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ROADMAP -->
+## CURRENT & FUTURE TOOLS
+
+✅ = Current<br />
+☑️ = Future<br />
+
+✅ Assetfinder - Subdomain Discovery<br />
+✅ Amass - Additional Subdomain Discovery<br />
+✅ HTTProbe - Alive Host Discovery<br />
+☑️ Wayback URLs - Wayback Machine API<br />
+☑️ Nmap - Network Port Discovery<br />
+
+Want additional tools or changes made to the automation script? Contact me below ⬇️: [Social Media & More](https://github.com/ct-cybersec/sub-finder-helper#social-media--more) Section.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 ## LICENSE
 
@@ -63,7 +79,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- PENTESTING PORTFOLIO SITE -->
+<!-- SOCIAL MEDIA & MORE -->
 ## SOCIAL MEDIA & MORE
 
 Twitter Handle - [@ct_cybersec](https://twitter.com/ct_cybersec)<br />
