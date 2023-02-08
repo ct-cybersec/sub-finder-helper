@@ -66,6 +66,7 @@ If you would like to see more features or for me to change something up in the s
 ✅ HTTProbe - Alive Host Discovery<br />
 ☑️ Wayback URLs - Wayback Machine API<br />
 ☑️ Nmap - Network Port Discovery<br />
+☑️ Gowitness - Screenshots of alive hosts<br />
 
 Want additional tools or changes made to the automation script? Contact me below ⬇️: [Social Media & More](https://github.com/ct-cybersec/sub-finder-helper#social-media--more) Section.
 
